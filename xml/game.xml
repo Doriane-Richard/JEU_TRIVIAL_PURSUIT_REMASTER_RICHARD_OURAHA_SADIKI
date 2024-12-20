@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TrivialPursuit xmlns="http://www.univ-grenoble-alpes.fr/l3miage/trivialpursuit"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.univ-grenoble-alpes.fr/l3miage/trivialpursuit ../xsd/game.xsd">
+    <Plateau>
+        <Cases>
+            <Case  couleur="BLEU" type="VIDE" >
+                <Sprite texture="case1_texture.png" couleur="BLEU" positionX="10" positionY="10" size="20" sizeMin="20"/>
+            </Case>
+            <Case  couleur="BLEU" type="VIDE" >
+                <Sprite texture="case1_texture.png" couleur="BLEU" positionX="13" positionY="10" size="20" sizeMin="20"/>
+            </Case>
+            
+            <Case couleur="ROUGE" type="QUESTION" >
+                    <Sprite texture="case2_texture.png" couleur="ROUGE" positionX="10" positionY="15" size="25" sizeMin="15"/>
+            </Case>
+
+            <Case  couleur="VERT" type="CHANCE" >
+                <Sprite texture="case2_texture.png" couleur="VERT" positionX="20" positionY="10" size="25" sizeMin="15"/>
+            </Case>
+
+            <Case  couleur="JAUNE" type="JOKER" >
+                <Sprite texture="case5_texture.png" couleur="JAUNE" positionX="15" positionY="10" size="25" sizeMin="15"/>
+            </Case>
+            
+            <Case  couleur="ORANGE" type="CHALLENGE"  >
+                <Sprite texture="case2_texture.png" couleur="ORANGE" positionX="25" positionY="10" size="25" sizeMin="15"/>
+            </Case>
+        </Cases>
+        <Background texture="plateau_texture.png"/>
+    </Plateau>
+    
+    
+    <Categories>
+        <Categorie id="1" nom="Histoire" couleur="ROUGE">
+            <Cartes>
+                <Carte id="101" difficulte="Facile">
+                    <Question> Le premier président de la france ?</Question>
+                    <Reponses>
+                        <Reponse id="1" texte="Louis-Napoléon Bonaparte" correct="true"/>
+                        <Reponse id="2" texte="Gaston Doumergue" correct="false"/>
+                    </Reponses>
+                </Carte>
+                <Carte id="102" difficulte="Moyen">
+                    <Question> Quelle année la seconde guerre mondiale a t elle pris fin ? </Question>
+                    <Reponses>
+                        <Reponse id="1" texte="1945" correct="true"/>
+                        <Reponse id="2" texte="1938" correct="false"/>
+                        <Reponse id="3" texte="1952" correct="false"/>
+                        <Reponse id="4" texte="1920" correct="false"/>
+                    </Reponses>
+                </Carte>
+            </Cartes>
+        </Categorie>
+
+        
+        <Categorie id="2" nom="Science" couleur="VERT">
+            <Cartes>
+                <Carte id="201" difficulte="Difficile">
+                    <Question> quelle est la formule chimique de l'eau ?</Question>
+                    <Reponses>
+                        <Reponse id="1" texte="H2O" correct="true"/>
+                        <Reponse id="2" texte="CO2" correct="false"/>
+                        <Reponse id="3" texte="O2" correct="false"/>
+                        <Reponse id="4" texte="H2O2" correct="false"/>
+                    </Reponses>
+                </Carte>
+            </Cartes>
+        </Categorie>
+    </Categories>
+    
+    
+    
+    <Joueurs>
+        <Joueur id="1" nom="Bob" score="4">
+            <Pion name="pion1" imageLink="pion1.png" description="pion bleu" case="1"/>
+            <Jokers>
+                <Joker id="1" nom="50/50" effet="Supprimer deux mauvaises réponses"/>
+            </Jokers>
+        </Joueur>
+        <Joueur id="2" nom="Toto" score="2">
+            <Pion name="Pion2" imageLink="pion2.png" description="Pion rouge" case="5"/>
+            <Jokers>
+                <Joker id="2" nom="Relance de question" effet="Permet de relancer la question"/>
+            </Jokers>
+        </Joueur>
+    </Joueurs>
+</TrivialPursuit>

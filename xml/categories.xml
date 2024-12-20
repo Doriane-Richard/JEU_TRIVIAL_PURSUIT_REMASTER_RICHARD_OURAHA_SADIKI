@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Categories>
+    <Categorie id="1" nom="Zythologie">
+        <Couleur>#FFCC5C</Couleur>
+    </Categorie>
+    <Categorie id="2" nom="Histoire">
+        <Couleur>#B2EBF2</Couleur>
+    </Categorie>
+    <Categorie id="3" nom="Musique">
+        <Couleur>#6A82FB</Couleur>
+    </Categorie>
+    <Categorie id="4" nom="Sport">
+        <Couleur>#FF6F61</Couleur>
+    </Categorie>
+    <Categorie id="5" nom="Jeux vidéo">
+        <Couleur>#F093FB</Couleur>
+    </Categorie>
+    <Categorie id="6" nom="Nature">
+        <Couleur>#88D498</Couleur>
+    </Categorie>
+</Categories>
+

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.univ-grenoble-alpes.fr/l3miage/trivialpursuit"
+           xmlns:tp="http://www.univ-grenoble-alpes.fr/l3miage/trivialpursuit"
+           elementFormDefault="qualified" >
+    <xs:element name="Plateau">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Cases" type="tp:Cases"/>
+            </xs:sequence>
+        </xs:complexType>
+        
+        <xs:unique name="idCase">
+            <xs:selector xpath="tp:Cases/tp:Case"/>
+            <xs:field xpath="@id"/>
+        </xs:unique>
+        
+        <xs:unique name="position">
+            <xs:selector xpath="tp:Cases/tp:Case/tp:Position"/>
+            <xs:field xpath="@x"/>
+            <xs:field xpath="@y"/>
+        </xs:unique>
+    </xs:element>
+    <!--Cases-->
+    <xs:complexType name="Cases">
+        <xs:sequence>
+            <xs:element name="Case" type="tp:Case" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    <!--Case-->
+    <xs:complexType name="Case">
+        <xs:sequence>
+            <xs:element name="Position" type="tp:Position"/>
+            <xs:element name="Type" type="tp:typeCase"/>
+            <xs:element name="Couleur" type="xs:string"/>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:int" use="required"/>
+    </xs:complexType>
+    <!--position-->
+    <xs:complexType name="Position">
+        <xs:attribute name="x" type="xs:int" use="required"/>
+        <xs:attribute name="y" type="xs:int" use="required"/>
+    </xs:complexType>
+    <!--typeCase-->
+    <xs:simpleType name="typeCase">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="VIDE"/>
+            <xs:enumeration value="QUESTION"/>
+            <xs:enumeration value="CHANCE"/>
+            <xs:enumeration value="JOKER"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

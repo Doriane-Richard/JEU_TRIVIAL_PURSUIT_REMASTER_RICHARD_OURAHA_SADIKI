@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Plateau xmlns="http://www.univ-grenoble-alpes.fr/l3miage/trivialpursuit"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.univ-grenoble-alpes.fr/l3miage/trivialpursuit ../xsd/case.xsd">
+
+    <Cases>
+       <Case id="1">
+           <Position x="30" y="200"/>
+           <Type>VIDE</Type>
+           <Couleur>#ffffff</Couleur>
+       </Case>
+
+        <Case id="2">
+            <Position x="160" y="200"/>
+            <Type>VIDE</Type>
+            <Couleur>#ffffff</Couleur>
+        </Case>
+
+        <Case id="3">
+            <Position x="290" y="200"/>
+            <Type>QUESTION</Type>
+            <Couleur>#ff0000</Couleur>
+        </Case>
+
+        <Case id="4">
+            <Position x="420" y="200"/>
+            <Type>CHANCE</Type>
+            <Couleur>#00ff00</Couleur>
+        </Case>
+
+        <Case id="5">
+            <Position x="550" y="200"/>
+            <Type>VIDE</Type>
+            <Couleur>#ffffff</Couleur>
+        </Case>
+
+        <Case id="6">
+            <Position x="680" y="200"/>
+            <Type>JOKER</Type>
+            <Couleur>#ffff00</Couleur>
+        </Case>
+
+        <Case id="7">
+            <Position x="810" y="200"/>
+            <Type>QUESTION</Type>
+            <Couleur>#ff00ff</Couleur>
+        </Case>
+
+        <Case id="8">
+            <Position x="940" y="200"/>
+            <Type>QUESTION</Type>
+            <Couleur>#00ffff</Couleur>
+        </Case>
+
+        <Case id="9">
+            <Position x="1070" y="200"/>
+            <Type>VIDE</Type>
+            <Couleur>#ffffff</Couleur>
+        </Case>
+
+        <Case id="10">
+            <Position x="1070" y="265"/>
+            <Type>VIDE</Type>
+            <Couleur>#ffffff</Couleur>
+        </Case>
+
+        <Case id="11">
+            <Position x="1070" y="330"/>
+            <Type>VIDE</Type>
+            <Couleur>#ffffff</Couleur>
+        </Case>
+
+        <Case id="12">
+            <Position x="1070" y="395"/>
+            <Type>VIDE</Type>
+            <Couleur>#ff0000</Couleur>
+        </Case>
+
+        <Case id="13">
+            <Position x="1070" y="460"/>
+            <Type>CHANCE</Type>
+            <Couleur>#00ff00</Couleur>
+        </Case>
+
+        <Case id="14">
+            <Position x="1070" y="525"/>
+            <Type>VIDE</Type>
+            <Couleur>#0000ff</Couleur>
+        </Case>
+
+        <Case id="15">
+            <Position x="1070" y="590"/>
+            <Type>JOKER</Type>
+            <Couleur>#ffff00</Couleur>
+        </Case>
+
+        <Case id="16">
+            <Position x="1070" y="655"/>
+            <Type>QUESTION</Type>
+            <Couleur>#ff00ff</Couleur>
+        </Case>
+
+        <Case id="17">
+            <Position x="1070" y="720"/>
+            <Type>QUESTION</Type>
+            <Couleur>00ffff</Couleur>
+        </Case>
+
+        <Case id="18">
+            <Position x="940" y="720"/>
+            <Type>QUESTION</Type>
+            <Couleur>#ff0000</Couleur>
+        </Case>
+
+        <Case id="19">
+            <Position x="810" y="720"/>
+            <Type>QUESTION</Type>
+            <Couleur>#00ff00</Couleur>
+        </Case>
+
+        <Case id="20">
+            <Position x="680" y="720"/>
+            <Type>JOKER</Type>
+            <Couleur>#ffff00</Couleur>
+        </Case>
+
+        <Case id="21">
+            <Position x="550" y="720"/>
+            <Type>VIDE</Type>
+            <Couleur>#0000ff</Couleur>
+        </Case>
+
+        <Case id="22">
+            <Position x="420" y="720"/>
+            <Type>CHANCE</Type>
+            <Couleur>#ff00ff</Couleur>
+        </Case>
+
+        <Case id="23">
+            <Position x="290" y="720"/>
+            <Type>CHANCE</Type>
+            <Couleur>#ff00ff</Couleur>
+        </Case>
+
+        <Case id="24">
+            <Position x="160" y="720"/>
+            <Type>VIDE</Type>
+            <Couleur>#ffffff</Couleur>
+        </Case>
+
+        <Case id="25">
+            <Position x="30" y="720"/>
+            <Type>VIDE</Type>
+            <Couleur>#ffffff</Couleur>
+        </Case>
+
+        <Case id="26">
+            <Position x="30" y="655"/>
+            <Type>QUESTION</Type>
+            <Couleur>#ff0000</Couleur>
+        </Case>
+
+        <Case id="27">
+            <Position x="30" y="590"/>
+            <Type>JOKER</Type>
+            <Couleur>#ffff00</Couleur>
+        </Case>
+
+        <Case id="28">
+            <Position x="30" y="525"/>
+            <Type>VIDE</Type>
+            <Couleur>#0000ff</Couleur>
+        </Case>
+
+        <Case id="29">
+            <Position x="30" y="460"/>
+            <Type>CHANCE</Type>
+            <Couleur>#ff00ff</Couleur>
+        </Case>
+
+        <Case id="30">
+            <Position x="30" y="395"/>
+            <Type>QUESTION</Type>
+            <Couleur>#00ffff</Couleur>
+        </Case>
+
+        <Case id="31">
+            <Position x="30" y="330"/>
+            <Type>VIDE</Type>
+            <Couleur>#ffffff</Couleur>
+        </Case>
+
+        <Case id="32">
+            <Position x="30" y="265"/>
+            <Type>VIDE</Type>
+            <Couleur>#ffffff</Couleur>
+        </Case>
+    </Cases>
+</Plateau>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.univ-grenoble-alpes.fr/l3miage/trivialpursuit"
+           xmlns:tp="http://www.univ-grenoble-alpes.fr/l3miage/trivialpursuit"
+           elementFormDefault="qualified">
+
+    <!-- Déclaration de l'élément racine Categorie -->
+    <xs:element name="Categories">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Categorie" type="tp:Categorie" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+
+        <xs:unique name="CategorieId">
+            <xs:selector xpath="tp:Categorie"/>
+            <xs:field xpath="@id"/>
+        </xs:unique>
+         
+        <xs:key name="MesCategoriesKey">
+            <xs:selector xpath="tp:Categorie"/>
+            <xs:field xpath="@nom"/>
+        </xs:key>
+        
+        <xs:keyref name="CategorieCarte" refer="tp:MesCategoriesKey">
+            <xs:selector xpath="tp:Categorie/tp:Cartes/tp:Carte"/>
+            <xs:field xpath="@categorie"/>
+        </xs:keyref>
+    
+        <xs:unique name="CarteId">
+            <xs:selector xpath="tp:Cartes/tp:Carte"/>
+            <xs:field xpath="@id"/>
+        </xs:unique>
+    </xs:element>
+
+    <!-- Categorie -->
+    <xs:complexType name="Categorie">
+        <xs:sequence>
+            <xs:element name="Cartes" type="tp:Cartes"/>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:int" use="required"/>
+        <xs:attribute name="nom" type="tp:MesCategories" use="required"/>
+        <xs:attribute name="couleur" type="xs:string" use="required"/>
+    </xs:complexType>
+    
+    
+    <xs:simpleType name="MesCategories">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Sport"/>
+            <xs:enumeration value="Nature"/>
+            <xs:enumeration value="Zythologie"/>
+            <xs:enumeration value="Jeux vidéo"/>
+            <xs:enumeration value="Histoire"/>
+            <xs:enumeration value="Musique"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!--  Cartes -->
+    <xs:complexType name="Cartes">
+        <xs:sequence>
+            <xs:element name="Carte" type="tp:Carte" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Carte -->
+    <xs:complexType name="Carte">
+        <xs:sequence>
+            <xs:element name="Question" type="xs:string"/>
+            <xs:element name="Reponses" type="tp:Reponses">
+                <!-- Clé d'unicité pour les identifiants des réponses dans chaque carte -->
+                <xs:unique name="ReponseId">
+                    <xs:selector xpath="tp:Reponse"/>
+                    <xs:field xpath="@id"/>
+                </xs:unique>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:int" use="required"/>
+        <xs:attribute name="difficulte" type="tp:Difficulte" use="required"/>
+        <xs:attribute name="categorie" type="xs:string" use="required"/>
+    </xs:complexType>
+
+    <!-- Reponses -->
+    <xs:complexType name="Reponses">
+        <xs:sequence>
+            <xs:element name="Reponse" type="tp:Reponse" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Reponse -->
+    <xs:complexType name="Reponse">
+        <xs:attribute name="id" type="xs:int" use="required"/>
+        <xs:attribute name="texte" type="xs:string" use="required"/>
+        <xs:attribute name="correct" type="xs:boolean" use="required"/>
+    </xs:complexType>
+
+    <!--  Difficulte -->
+    <xs:simpleType name="Difficulte">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Facile"/>
+            <xs:enumeration value="Moyen"/>
+            <xs:enumeration value="Difficile"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+
+
+</xs:schema>

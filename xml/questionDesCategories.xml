@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Categories xmlns="http://www.univ-grenoble-alpes.fr/l3miage/trivialpursuit"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.univ-grenoble-alpes.fr/l3miage/trivialpursuit ../xsd/categorie.xsd">
+    
+    
+        <!--Zythologie-->   
+    <Categorie id="1" nom="Zythologie" couleur="ffcc5c">
+    <Cartes>
+        <Carte id="101" difficulte="Facile" categorie="Zythologie">
+            <Question>Quel est le principal ingrédient de la bière ?</Question>
+            <Reponses>
+                <Reponse id="1" texte="Orge" correct="true"/>
+                <Reponse id="2" texte="Blé" correct="false"/>
+                <Reponse id="3" texte="Maïs" correct="false"/>
+                <Reponse id="4" texte="Riz" correct="false"/>
+            </Reponses>
+        </Carte>
+        
+        <Carte id="102" difficulte="Facile" categorie="Zythologie">
+            <Question>Quel est le nom du processus où les levures transforment le sucre en alcool dans la bière ?</Question>
+            <Reponses>
+                <Reponse id="1" texte="Fermentation" correct="true"/>
+                <Reponse id="2" texte="Distillation" correct="false"/>
+                <Reponse id="3" texte="Macération" correct="false"/>
+                <Reponse id="4" texte="Filtration" correct="false"/>
+            </Reponses>
+        </Carte>
+
+        <Carte id="103" difficulte="Facile" categorie="Zythologie">
+            <Question>Quel type de bière est généralement plus foncé et plus riche en saveur ?</Question>
+            <Reponses>
+                <Reponse id="1" texte="Stout" correct="true"/>
+                <Reponse id="2" texte="Lager" correct="false"/>
+                <Reponse id="3" texte="Pilsner" correct="false"/>
+                <Reponse id="4" texte="Blonde" correct="false"/>
+            </Reponses>
+        </Carte>
+
+        <Carte id="104" difficulte="Facile" categorie="Zythologie">
+            <Question>Quel pays est célèbre pour ses bières trappistes ?</Question>
+            <Reponses>
+                <Reponse id="1" texte="Belgique" correct="true"/>
+                <Reponse id="2" texte="Allemagne" correct="false"/>
+                <Reponse id="3" texte="République " correct="false"/>
+                <Reponse id="4" texte="Tchèque" correct="false"/>
+            </Reponses>
+        </Carte>
+
+        <Carte id="105" difficulte="Moyen" categorie="Zythologie">
+            <Question>Quel type de levure est utilisé pour les bières de type ale ?</Question>
+            <Reponses>
+                <Reponse id="1" texte="Levure haute" correct="true"/>
+                <Reponse id="2" texte="Levure basse" correct="false"/>
+                <Reponse id="3" texte="Levure sauvage " correct="false"/>
+                <Reponse id="4" texte="Levure sèche" correct="false"/>
+            </Reponses>
+        </Carte>
+
+        <Carte id="106" difficulte="Moyen" categorie="Zythologie">
+            <Question>Quel est le nom du récipient utilisé pour la fermentation de la bière ?</Question>
+            <Reponses>
+                <Reponse id="1" texte="Cuve de fermentation" correct="true"/>
+                <Reponse id="2" texte="Alambic" correct="false"/>
+                <Reponse id="3" texte="Fût" correct="false"/>
+                <Reponse id="4" texte="Tonneau" correct="false"/>
+            </Reponses>
+        </Carte>
+
+        <Carte id="107" difficulte="Moyen" categorie="Zythologie">
+            <Question>Quel type de bière est souvent associé à la ville de Munich ?</Question>
+            <Reponses>
+                <Reponse id="1" texte="Weizen" correct="true"/>
+                <Reponse id="2" texte="Porter" correct="false"/>
+                <Reponse id="3" texte="IPA" correct="false"/>
+                <Reponse id="4" texte="Lambic" correct="false"/>
+            </Reponses>
+        </Carte>
+
+        <Carte id="108" difficulte="Moyen" categorie="Zythologie">
+            <Question>Quel est le nom du processus qui consiste à ajouter du houblon à la bière ?</Question>
+            <Reponses>
+                <Reponse id="1" texte="Houblonnage" correct="true"/>
+                <Reponse id="2" texte="Maltage" correct="false"/>
+                <Reponse id="3" texte="Brassage" correct="false"/>
+                <Reponse id="4" texte="Filtration" correct="false"/>
+            </Reponses>
+        </Carte>
+        
+        <Carte id="109" difficulte="Difficile" categorie="Zythologie">
+            <Question>Quel est le nom du composé chimique responsable de l'amertume dans la bière ?</Question>
+            <Reponses>
+                <Reponse id="1" texte="Lupuline" correct="true"/>
+                <Reponse id="2" texte="Maltose" correct="false"/>
+                <Reponse id="3" texte="Dextrine" correct="false"/>
+                <Reponse id="4" texte="Isomérisation" correct="false"/>
+            </Reponses>
+        </Carte>
+
+        <Carte id="110" difficulte="Difficile" categorie="Zythologie">
+            <Question>Quel type de bière est traditionnellement brassé avec des fruits ?</Question>
+            <Reponses>
+                <Reponse id="1" texte="Lambic" correct="true"/>
+                <Reponse id="2" texte="Pilsner" correct="false"/>
+                <Reponse id="3" texte="Stout" correct="false"/>
+                <Reponse id="4" texte="Lager" correct="false"/>
+            </Reponses>
+        </Carte>
+
+        <Carte id="111" difficulte="Difficile" categorie="Zythologie">
+            <Question>Quel est le nom du processus de vieillissement de la bière en fût de chêne ?</Question>
+            <Reponses>
+                <Reponse id="1" texte="Vieillissement en fût" correct="true"/>
+                <Reponse id="2" texte="Carbonatation" correct="false"/>
+                <Reponse id="3" texte="Pasteurisation" correct="false"/>
+                <Reponse id="4" texte="Clarification" correct="false"/>
+            </Reponses>
+        </Carte>
+
+        <Carte id="112" difficulte="Difficile" categorie="Zythologie">
+            <Question>Quel est le nom de la bière traditionnelle japonaise ?</Question>
+            <Reponses>
+                <Reponse id="1" texte="Sake" correct="true"/>
+                <Reponse id="2" texte="Asahi" correct="false"/>
+                <Reponse id="3" texte="Kirin" correct="false"/>
+                <Reponse id="4" texte="Sapporo" correct="false"/>
+            </Reponses>
+        </Carte>
+    </Cartes>
+</Categorie>
+
+
+
+    <!--Histoire-->
+    <Categorie id="2" nom="Histoire" couleur="b2ebf2">
+        <Cartes>
+            <Carte id="101" difficulte="Facile" categorie="Histoire">
+                <Question>Qui a découvert l'Amérique en 1492 ?</Question>
+                <Reponses>
+                    <Reponse id="1" texte="Christophe Colomb" correct="true"/>
+                    <Reponse id="2" texte="Amerigo Vespucci" correct="false"/>
+                    <Reponse id="3" texte="Ferdinand Magellan" correct="false"/>
+                    <Reponse id="4" texte="Vasco de Gama" correct="false"/>
+                </Reponses>
+            </Carte>
+
+            <Carte id="102" difficulte="Facile" categorie="Histoire">
+                <Question>Quel était le nom du premier président des États-Unis ?</Question>
+                <Reponses>
+                    <Reponse id="1" texte="George Washington" correct="true"/>
+                    <Reponse id="2" texte="Thomas Jefferson" correct="false"/>
+                    <Reponse id="3" texte="John Adams" correct="false"/>
+                    <Reponse id="4" texte="James Madison" correct="false"/>
+                </Reponses>
+            </Carte>
+
+            <Carte id="105" difficulte="Moyen" categorie="Histoire">
+                <Question>Quel traité a mis fin à la Première Guerre mondiale ?</Question>
+                <Reponses>
+                    <Reponse id="1" texte="Traité de Versailles" correct="true"/>
+                    <Reponse id="2" texte="Traité de Trianon" correct="false"/>
+                    <Reponse id="3" texte="Traité de Sèvres" correct="false"/>
+                    <Reponse id="4" texte="Traité de Saint-Germain" correct="false"/>
+                </Reponses>
+            </Carte>
+
+            <Carte id="106" difficulte="Moyen" categorie="Histoire">
+                <Question>Qui était le leader de la révolution cubaine en 1959 ?</Question>
+                <Reponses>
+                    <Reponse id="1" texte="Fidel Castro" correct="true"/>
+                    <Reponse id="2" texte="Che Guevara" correct="false"/>
+                    <Reponse id="3" texte="Raúl Castro" correct="false"/>
+                    <Reponse id="4" texte="Camilo Cienfuegos" correct="false"/>
+                </Reponses>
+            </Carte>
+
+            <Carte id="107" difficulte="Moyen" categorie="Histoire">
+                <Question>Quel était le nom du premier empereur de Chine ?</Question>
+                <Reponses>
+                    <Reponse id="1" texte="Qin Shi Huang" correct="true"/>
+                    <Reponse id="2" texte="Sun Yat-sen" correct="false"/>
+                    <Reponse id="3" texte="Kangxi" correct="false"/>
+                    <Reponse id="4" texte="Mao Zedong" correct="false"/>
+                </Reponses>
+            </Carte>
+
+            <Carte id="108" difficulte="Moyen" categorie="Histoire">
+                <Question>En quelle année a eu lieu la bataille de Waterloo ?</Question>
+                <Reponses>
+                    <Reponse id="1" texte="1815" correct="true"/>
+                    <Reponse id="2" texte="1805" correct="false"/>
+                    <Reponse id="3" texte="1812" correct="false"/>
+                    <Reponse id="4" texte="1820" correct="false"/>
+                </Reponses>
+            </Carte>
+
+            <Carte id="109" difficulte="Difficile" categorie="Histoire">
+                <Question>Quel était le nom du premier pharaon de l'Égypte unifiée ?</Question>
+                <Reponses>
+                    <Reponse id="1" texte="Narmer" correct="true"/>
+                    <Reponse id="2" texte="Khéops" correct="false"/>
+                    <Reponse id="3" texte="Ramsès II" correct="false"/>
+                    <Reponse id="4" texte="Akhenaton" correct="false"/>
+                </Reponses>
+            </Carte>
+
+            <Carte id="110" difficulte="Difficile" categorie="Histoire">
+                <Question>Quel traité a mis fin à la guerre de Cent Ans ?</Question>
+                <Reponses>
+                    <Reponse id="1" texte="Traité de Picquigny" correct="true"/>
+                    <Reponse id="2" texte="Traité de Troyes" correct="false"/>
+                    <Reponse id="3" texte="Traité de Brétigny" correct="false"/>
+                    <Reponse id="4" texte="Traité de Calais" correct="false"/>
+                </Reponses>
+            </Carte>
+
+            <Carte id="111" difficulte="Difficile" categorie="Histoire">
+                <Question>Qui était le leader de la révolte des Boxers en Chine ?</Question>
+                <Reponses>
+                    <Reponse id="1" texte="Cixi" correct="true"/>
+                    <Reponse id="2" texte="Sun Yat-sen" correct="false"/>
+                    <Reponse id="3" texte="Mao Zedong" correct="false"/>
+                    <Reponse id="4" texte="Chiang Kai-shek" correct="false"/>
+                </Reponses>
+            </Carte>
+
+            <Carte id="112" difficulte="Difficile" categorie="Histoire">
+                <Question>En quelle année a eu lieu la bataille de Poitiers ?</Question>
+                <Reponses>
+                    <Reponse id="1" texte="732" correct="true"/>
+                    <Reponse id="2" texte="711" correct="false"/>
+                    <Reponse id="3" texte="756" correct="false"/>
+                    <Reponse id="4" texte="778" correct="false"/>
+                </Reponses>
+            </Carte>
+        </Cartes>
+    </Categorie>
+
+
+    <!--Musique-->
+
+    <Categorie id="3" nom="Musique" couleur="b2ebf2">
+        <Cartes>
+            <Carte id="301" difficulte="Facile" categorie="Musique">
+                <Question>Qui est connu comme le "Roi du Rock'n'Roll" ?</Question>
+                <Reponses>
+                    <Reponse id="1" texte="Elvis Presley" correct="true"/>
+                    <Reponse id="2" texte="Michael Jackson" correct="false"/>
+                    <Reponse id="3" texte="Freddie Mercury" correct="false"/>
+                    <Reponse id="4" texte="Mick Jagger" correct="false"/>
+                </Reponses>
+            </Carte>
+
+            <Carte id="302" difficulte="Facile" categorie="Musique">
+                <Question>Quel instrument de musique est souvent associé à Mozart ?</Question>
+                <Reponses>
+                    <Reponse id="1" texte="Piano" correct="true"/>
+                    <Reponse id="2" texte="Violon" correct="false"/>
+                    <Reponse id="3" texte="Flûte" correct="false"/>
+                    <Reponse id="4" texte="Guitare" correct="false"/>
+                </Reponses>
+            </Carte>
+
+            <Carte id="305" difficulte="Facile" categorie="Musique">
+                <Question>Quel groupe est célèbre pour la chanson "Bohemian Rhapsody" ?</Question>
+                <Reponses>
+                    <Reponse id="1" texte="Queen" correct="true"/>
+                    <Reponse id="2" texte="The Beatles" correct="false"/>
+                    <Reponse id="3" texte="The Rolling Stones" correct="false"/>
+                    <Reponse id="4" texte="Pink Floyd" correct="false"/>
+                </Reponses>
+            </Carte>
+
+            <Carte id="106" difficulte="Facile" categorie="Musique">
+                <Question>Quel est le nom du premier album des Beatles ?</Question>
+                <Reponses>
+                    <Reponse id="1" texte="Please Please Me" correct="true"/>
+                    <Reponse id="2" texte="Abbey Road" correct="false"/>
+                    <Reponse id="3" texte="Pepper's Lonely Hearts Club Band" correct="false"/>
+                    <Reponse id="4" texte="The White Album" correct="false"/>
+                </Reponses>
+            </Carte>
+
+            <Carte id="107" difficulte="Moyen" categorie="Musique">
+                <Question>Quel compositeur a écrit "Les Quatre Saisons" ?</Question>
+                <Reponses>
+                    <Reponse id="1" texte="Antonio Vivaldi" correct="true"/>
+                    <Reponse id="2" texte="Johann Sebastian Bach" correct="false"/>
+                    <Reponse id="3" texte="Ludwig van Beethoven" correct="false"/>
+                    <Reponse id="4" texte="Wolfgang Amadeus Mozart" correct="false"/>
+                </Reponses>
+            </Carte>
+
+            <Carte id="108" difficulte="Moyen" categorie="Musique">
+                <Question>Quel est le nom du premier album de Michael Jackson en solo ?</Question>
+                <Reponses>
+                    <Reponse id="1" texte="Got to Be There" correct="true"/>
+                    <Reponse id="2" texte="Off the Wall" correct="false"/>
+                    <Reponse id="3" texte="Thriller" correct="false"/>
+                    <Reponse id="4" texte="Bad" correct="false"/>
+                </Reponses>
+            </Carte>
+
+            <Carte id="109" difficulte="Moyen" categorie="Musique">
+                <Question>Quel groupe est célèbre pour la chanson "Smoke on the Water" ?</Question>
+                <Reponses>
+                    <Reponse id="1" texte="Deep Purple" correct="true"/>
+                    <Reponse id="2" texte="Led Zeppelin" correct="false"/>
+                    <Reponse id="3" texte="Black Sabbath" correct="false"/>
+                    <Reponse id="4" texte="AC/DC" correct="false"/>
+                </Reponses>
+            </Carte>
+
+            <Carte id="110" difficulte="Moyen" categorie="Musique">
+                <Question>Quel est le nom du premier album de Madonna ?</Question>
+                <Reponses>
+                    <Reponse id="1" texte="Madonna" correct="true"/>
+                    <Reponse id="2" texte="Like a Virgin" correct="false"/>
+                    <Reponse id="3" texte="True Blue" correct="false"/>
+                    <Reponse id="4" texte="Like a Prayer" correct="false"/>
+                </Reponses>
+            </Carte>
+
+            <Carte id="111" difficulte="Difficile" categorie="Musique">
+                <Question>Quel compositeur a écrit l'opéra "Carmen" ?</Question>
+                <Reponses>
+                    <Reponse id="1" texte="Georges Bizet" correct="true"/>
+                    <Reponse id="2" texte="Giuseppe Verdi" correct="false"/>
+                    <Reponse id="3" texte=", Giacomo Puccini" correct="false"/>
+                    <Reponse id="4" texte="Richard Wagner" correct="false"/>
+                </Reponses>
+            </Carte>
+
+            <Carte id="112" difficulte="Difficile" categorie="Musique">
+                <Question>Quel est le nom du premier album de Bob Dylan ?</Question>
+                <Reponses>
+                    <Reponse id="1" texte="Bob Dylan" correct="true"/>
+                    <Reponse id="2" texte="The Freewheelin' Bob Dylan" correct="false"/>
+                    <Reponse id="3" texte=" Highway 61 Revisited" correct="false"/>
+                    <Reponse id="4" texte="Blonde on Blonde" correct="false"/>
+                </Reponses>
+            </Carte>
+
+            <Carte id="113" difficulte="Difficile" categorie="Musique">
+                <Question>Quel groupe est célèbre pour la chanson "In-A-Gadda-Da-Vida" ?</Question>
+                <Reponses>
+                    <Reponse id="1" texte="Iron Butterfly" correct="true"/>
+                    <Reponse id="2" texte="The Doors" correct="false"/>
+                    <Reponse id="3" texte=" The Jimi Hendrix Experience" correct="false"/>
+                    <Reponse id="4" texte="Cream" correct="false"/>
+                </Reponses>
+            </Carte>
+
+            <Carte id="114" difficulte="Difficile" categorie="Musique">
+                <Question>Quel est le nom du premier album de Prince ?</Question>
+                <Reponses>
+                    <Reponse id="1" texte="For You" correct="true"/>
+                    <Reponse id="2" texte="Prince" correct="false"/>
+                    <Reponse id="3" texte=" Dirty Mind" correct="false"/>
+                    <Reponse id="4" texte="Controversy" correct="false"/>
+                </Reponses>
+            </Carte>
+        </Cartes>
+    </Categorie>
+
+
+
+
+    <!--Sport-->
+
+    <Categorie id="4" nom="Sport" couleur="ff6f61">
+        <Cartes>
+            <Carte id="401" difficulte="Facile" categorie="Sport">
+                <Question>Quel sport est joué à Wimbledon ?</Question>
+                <Reponses>
+                    <Reponse id="1" texte="Tennis" correct="true"/>
+                    <Reponse id="2" texte="Football" correct="false"/>
+                    <Reponse id="3" texte="Basketball" correct="false"/>
+                    <Reponse id="4" texte="Golf" correct="false"/>
+                </Reponses>
+            </Carte>
+
+            <Carte id="402" difficulte="Facile" categorie="Sport">
+                <Question>Quel pays a remporté la Coupe du Monde de football en 2018 ?</Question>
+                <Reponses>
+                    <Reponse id="1" texte="France" correct="true"/>
+                    <Reponse id="2" texte="Allemagne" correct="false"/>
+                    <Reponse id="3" texte="Brésil" correct="false"/>
+                    <Reponse id="4" texte="Espagne" correct="false"/>
+                </Reponses>
+            </Carte>
+
+            <Carte id="405" difficulte="Facile" categorie="Sport">
+                <Question>Quel est le nom du célèbre joueur de basketball connu sous le surnom de "Air Jordan" ?</Question>
+                <Reponses>
+                    <Reponse id="1" texte="Michael Jordan" correct="true"/>
+                    <Reponse id="2" texte="Kobe Bryant" correct="false"/>
+                    <Reponse id="3" texte="LeBron James" correct="false"/>
+                    <Reponse id="4" texte="Magic Johnson" correct="false"/>
+                </Reponses>
+            </Carte>
+
+            <Carte id="106" difficulte="Facile" categorie="Sport">
+                <Question>Quel sport est pratiqué lors du Tour de France ?</Question>
+                <Reponses>
+                    <Reponse id="1" texte="Cyclisme" correct="true"/>
+                    <Reponse id="2" texte="Athlétisme" correct="false"/>
+                    <Reponse id="3" texte=" Natation" correct="false"/>
+                    <Reponse id="4" texte="Équitation" correct="false"/>
+                </Reponses>
+            </Carte>
+
+            <Carte id="107" difficulte="Moyen" categorie="Sport">
+                <Question>Quel pays a accueilli les Jeux Olympiques d'été en 2016 ?</Question>
+                <Reponses>
+                    <Reponse id="1" texte="Brésil" correct="true"/>
+                    <Reponse id="2" texte="Japon" correct="false"/>
+                    <Reponse id="3" texte="Chine" correct="false"/>
+                    <Reponse id="4" texte="Russie" correct="false"/>
+                </Reponses>
+            </Carte>
+
+            <Carte id="108" difficulte="Moyen" categorie="Sport">
+                <Question> Quel joueur de football est connu sous le surnom de "El Fenómeno" ?</Question>
+                <Reponses>
+                    <Reponse id="1" texte="Ronaldo" correct="true"/>
+                    <Reponse id="2" texte="Pelél" correct="false"/>
+                    <Reponse id="3" texte="Lionel Messi" correct="false"/>
+                    <Reponse id="4" texte="Cristiano Ronaldo" correct="false"/>
+                </Reponses>
+            </Carte>
+
+            <Carte id="109" difficulte="Moyen" categorie="Sport">
+                <Question>Quel sport est pratiqué lors de la Ryder Cup ?</Question>
+                <Reponses>
+                    <Reponse id="1" texte="Golf" correct="true"/>
+                    <Reponse id="2" texte="Rugby" correct="false"/>
+                    <Reponse id="3" texte="Cricket" correct="false"/>
+                    <Reponse id="4" texte="Hockey" correct="false"/>
+                </Reponses>
+            </Carte>
+
+            <Carte id="110" difficulte="Moyen" categorie="Sport">
+                <Question>Quel est le nom du célèbre joueur de baseball connu sous le surnom de "The Babe" ?</Question>
+                <Reponses>
+                    <Reponse id="1" texte="Babe Ruth" correct="true"/>
+                    <Reponse id="2" texte="Mickey Mantle" correct="false"/>
+                    <Reponse id="3" texte="Hank Aaron" correct="false"/>
+                    <Reponse id="4" texte="Willie Mays" correct="false"/>
+                </Reponses>
+            </Carte>
+
+            <Carte id="111" difficulte="Difficile" categorie="Sport">
+                <Question>Quel pays a remporté la Coupe du Monde de rugby en 2019 ?</Question>
+                <Reponses>
+                    <Reponse id="1" texte="Afrique du Sud" correct="true"/>
+                    <Reponse id="2" texte="Nouvelle-Zélande" correct="false"/>
+                    <Reponse id="3" texte="Australiei" correct="false"/>
+                    <Reponse id="4" texte="Angleterre" correct="false"/>
+                </Reponses>
+            </Carte>
+
+            <Carte id="112" difficulte="Difficile" categorie="Sport">
+                <Question>Quel est le nom du célèbre joueur de hockey sur glace connu sous le surnom de "The Great One" ?</Question>
+                <Reponses>
+                    <Reponse id="1" texte="Wayne Gretzky" correct="true"/>
+                    <Reponse id="2" texte="Mario Lemieux" correct="false"/>
+                    <Reponse id="3" texte=" Sidney Crosby" correct="false"/>
+                    <Reponse id="4" texte="Alexander Ovechkin" correct="false"/>
+                </Reponses>
+            </Carte>
+
+            <Carte id="113" difficulte="Difficile" categorie="Sport">
+                <Question>Quel sport est pratiqué lors de la Coupe Davis ?</Question>
+                <Reponses>
+                    <Reponse id="1" texte="Tennis" correct="true"/>
+                    <Reponse id="2" texte="Badminton" correct="false"/>
+                    <Reponse id="3" texte=" Squash" correct="false"/>
+                    <Reponse id="4" texte="Tennis de table" correct="false"/>
+                </Reponses>
+            </Carte>
+
+            <Carte id="114" difficulte="Difficile" categorie="Sport">
+                <Question>Quel est le nom du célèbre joueur de football américain connu sous le surnom de "Broadway Joe" ?</Question>
+                <Reponses>
+                    <Reponse id="1" texte="Joe Namath" correct="true"/>
+                    <Reponse id="2" texte="Tom Brady" correct="false"/>
+                    <Reponse id="3" texte=" Peyton Manning" correct="false"/>
+                    <Reponse id="4" texte=" Brett Favre" correct="false"/>
+                </Reponses>
+            </Carte>
+        </Cartes>
+    </Categorie>
+
+
+
+    <!--Jeux video-->
+
+
+    <Categorie id="5" nom="Jeux vidéo" couleur="f093fb">
+    <Cartes>
+        <Carte id="401" difficulte="Facile" categorie="Jeux vidéo">
+            <Question>Quel est le nom du plombier célèbre de Nintendo ?</Question>
+            <Reponses>
+                <Reponse id="1" texte="Mario" correct="true"/>
+                <Reponse id="2" texte="Luigi" correct="false"/>
+                <Reponse id="3" texte="Sonic" correct="false"/>
+                <Reponse id="4" texte="Link" correct="false"/>
+            </Reponses>
+        </Carte>
+
+        <Carte id="302" difficulte="Facile" categorie="Jeux vidéo">
+            <Question>Quel jeu vidéo met en scène un hérisson bleu ?</Question>
+            <Reponses>
+                <Reponse id="1" texte="Sonic the Hedgehog" correct="true"/>
+                <Reponse id="2" texte="Super Mario Bros" correct="false"/>
+                <Reponse id="3" texte="The Legend of Zelda" correct="false"/>
+                <Reponse id="4" texte="Pac-Man" correct="false"/>
+            </Reponses>
+        </Carte>
+
+        <Carte id="305" difficulte="Moyen" categorie="Jeux vidéo">
+            <Question>Quel est le nom de la console de jeu portable de Nintendo sortie en 1989 ?</Question>
+            <Reponses>
+                <Reponse id="1" texte="Game Boy" correct="true"/>
+                <Reponse id="2" texte="GameCube" correct="false"/>
+                <Reponse id="3" texte="Nintendo 64" correct="false"/>
+                <Reponse id="4" texte="Wii" correct="false"/>
+            </Reponses>
+        </Carte>
+
+        <Carte id="106" difficulte="Facile" categorie="Jeux vidéo">
+            <Question>Quel jeu vidéo met en scène un personnage qui doit sauver la Terre des envahisseurs extraterrestres ??</Question>
+            <Reponses>
+                <Reponse id="1" texte="Space Invaders" correct="true"/>
+                <Reponse id="2" texte="Pac-Man" correct="false"/>
+                <Reponse id="3" texte=" Tetris" correct="false"/>
+                <Reponse id="4" texte="Pong" correct="false"/>
+            </Reponses>
+        </Carte>
+
+        <Carte id="107" difficulte="Moyen" categorie="Jeux vidéo">
+            <Question>Quel est le nom du premier jeu de la série "The Legend of Zelda" ? ?</Question>
+            <Reponses>
+                <Reponse id="1" texte="The Legend of Zelda" correct="true"/>
+                <Reponse id="2" texte="Ocarina of Time" correct="false"/>
+                <Reponse id="3" texte=" Link's Awakening" correct="false"/>
+                <Reponse id="4" texte="reath of the Wild" correct="false"/>
+            </Reponses>
+        </Carte>
+
+        <Carte id="108" difficulte="Moyen" categorie="Jeux vidéo">
+            <Question>Quel jeu vidéo met en scène un archéologue aventurier ?</Question>
+            <Reponses>
+                <Reponse id="1" texte="Tomb Raider" correct="true"/>
+                <Reponse id="2" texte="Uncharted" correct="false"/>
+                <Reponse id="3" texte="Indiana Jones" correct="false"/>
+                <Reponse id="4" texte="Assassin's Creed" correct="false"/>
+            </Reponses>
+        </Carte>
+
+        <Carte id="109" difficulte="Moyen" categorie="Jeux vidéo">
+            <Question>Quel est le nom de la console de jeu de Microsoft sortie en 2001 ?</Question>
+            <Reponses>
+                <Reponse id="1" texte="Xbox" correct="true"/>
+                <Reponse id="2" texte="PlayStation" correct="false"/>
+                <Reponse id="3" texte=" Nintendo Switch" correct="false"/>
+                <Reponse id="4" texte="Sega Dreamcast" correct="false"/>
+            </Reponses>
+        </Carte>
+
+        <Carte id="110" difficulte="Moyen" categorie="Jeux vidéo">
+            <Question>Quel jeu vidéo met en scène un agent secret britannique ?</Question>
+            <Reponses>
+                <Reponse id="1" texte="GoldenEye 007" correct="true"/>
+                <Reponse id="2" texte="Metal Gear Solid" correct="false"/>
+                <Reponse id="3" texte=" Splinter Cell" correct="false"/>
+                <Reponse id="4" texte="Hitman" correct="false"/>
+            </Reponses>
+        </Carte>
+
+        <Carte id="111" difficulte="Difficile" categorie="Jeux vidéo">
+            <Question>Quel est le nom du premier jeu de la série "Final Fantasy" ?</Question>
+            <Reponses>
+                <Reponse id="1" texte="Final Fantasy" correct="true"/>
+                <Reponse id="2" texte="Final Fantasy VII" correct="false"/>
+                <Reponse id="3" texte="inal Fantasy X" correct="false"/>
+                <Reponse id="4" texte="Final Fantasy XV" correct="false"/>
+            </Reponses>
+        </Carte>
+
+        <Carte id="112" difficulte="Difficile" categorie="Jeux vidéo">
+            <Question>Quel jeu vidéo met en scène un chasseur de monstres géants ?</Question>
+            <Reponses>
+                <Reponse id="1" texte="Monster Hunte" correct="true"/>
+                <Reponse id="2" texte="God of War" correct="false"/>
+                <Reponse id="3" texte=" Shadow of the Colossus" correct="false"/>
+                <Reponse id="4" texte="Horizon Zero Dawn" correct="false"/>
+            </Reponses>
+        </Carte>
+
+        <Carte id="113" difficulte="Difficile" categorie="Jeux vidéo">
+            <Question>Quel est le nom de la console de jeu de Sega sortie en 1988 ?</Question>
+            <Reponses>
+                <Reponse id="1" texte="Sega Mega Drive" correct="true"/>
+                <Reponse id="2" texte="Sega Saturn" correct="false"/>
+                <Reponse id="3" texte="Sega Dreamcast" correct="false"/>
+                <Reponse id="4" texte="Sega Master System" correct="false"/>
+            </Reponses>
+        </Carte>
+
+        <Carte id="114" difficulte="Difficile" categorie="Jeux vidéo">
+            <Question>Quel jeu vidéo met en scène un chevalier en armure bleue ?</Question>
+            <Reponses>
+                <Reponse id="1" texte="Mega Man" correct="true"/>
+                <Reponse id="2" texte="Metroid" correct="false"/>
+                <Reponse id="3" texte=" Castlevania" correct="false"/>
+                <Reponse id="4" texte="Contra" correct="false"/>
+            </Reponses>
+        </Carte>
+    </Cartes>
+    </Categorie>
+
+
+    <!--Nature-->
+
+    <Categorie id="6" nom="Nature" couleur="88d498">
+        <Cartes>
+            <Carte id="101" difficulte="Facile" categorie="Nature">
+                <Question>Quel est le plus grand mammifère terrestre ?</Question>
+                <Reponses>
+                    <Reponse id="1" texte="Éléphant" correct="true"/>
+                    <Reponse id="2" texte="Rhinocéros" correct="false"/>
+                    <Reponse id="3" texte="Hippopotame" correct="false"/>
+                    <Reponse id="4" texte="Girafe" correct="false"/>
+                </Reponses>
+            </Carte>
+
+            <Carte id="102" difficulte="Facile" categorie="Nature">
+                <Question>Quel est le plus grand océan du monde ?</Question>
+                <Reponses>
+                    <Reponse id="1" texte="Océan Pacifique" correct="true"/>
+                    <Reponse id="2" texte="Océan Atlantique" correct="false"/>
+                    <Reponse id="3" texte="Océan Indien" correct="false"/>
+                    <Reponse id="4" texte="Océan Arctique" correct="false"/>
+                </Reponses>
+            </Carte>
+
+            <Carte id="103" difficulte="Facile" categorie="Nature">
+                <Question>Quel est le plus haut sommet du monde ??</Question>
+                <Reponses>
+                    <Reponse id="1" texte="Mont Everest" correct="true"/>
+                    <Reponse id="2" texte="K2" correct="false"/>
+                    <Reponse id="3" texte="Kangchenjunga" correct="false"/>
+                    <Reponse id="4" texte="Lhotse" correct="false"/>
+                </Reponses>
+            </Carte>
+
+            <Carte id="104" difficulte="Facile" categorie="Nature">
+                <Question>Quel est le plus long fleuve du monde ?</Question>
+                <Reponses>
+                    <Reponse id="1" texte="Nil" correct="true"/>
+                    <Reponse id="2" texte="Amazone" correct="false"/>
+                    <Reponse id="3" texte="Yangtsé " correct="false"/>
+                    <Reponse id="4" texte="Mississippi" correct="false"/>
+                </Reponses>
+            </Carte>
+
+            <Carte id="105" difficulte="Moyen" categorie="Nature">
+                <Question>Quel est le nom de l'arbre le plus ancien du monde ?</Question>
+                <Reponses>
+                    <Reponse id="1" texte="Methuselah" correct="true"/>
+                    <Reponse id="2" texte="General Sherman" correct="false"/>
+                    <Reponse id="3" texte="Hyperion " correct="false"/>
+                    <Reponse id="4" texte="The President" correct="false"/>
+                </Reponses>
+            </Carte>
+
+            <Carte id="106" difficulte="Moyen" categorie="Nature">
+                <Question>Quel est le nom du plus grand récif corallien du monde ?</Question>
+                <Reponses>
+                    <Reponse id="1" texte="Grande Barrière de Corail" correct="true"/>
+                    <Reponse id="2" texte="Récif de Tubbataha" correct="false"/>
+                    <Reponse id="3" texte="Récif de la Mer Rouge" correct="false"/>
+                    <Reponse id="4" texte="Récif de Belize" correct="false"/>
+                </Reponses>
+            </Carte>
+
+            <Carte id="107" difficulte="Moyen" categorie="Nature">
+                <Question>Quel est le nom de la plus grande forêt tropicale du monde ?</Question>
+                <Reponses>
+                    <Reponse id="1" texte="Forêt Amazonienne" correct="true"/>
+                    <Reponse id="2" texte="Forêt du Congo" correct="false"/>
+                    <Reponse id="3" texte="Forêt de Bornéo" correct="false"/>
+                    <Reponse id="4" texte=" Forêt de Sumatra" correct="false"/>
+                </Reponses>
+            </Carte>
+
+            <Carte id="108" difficulte="Moyen" categorie="Nature">
+                <Question>Quel est le nom du plus grand désert du monde ?</Question>
+                <Reponses>
+                    <Reponse id="1" texte="Désert de l'Antarctique" correct="true"/>
+                    <Reponse id="2" texte="Sahara" correct="false"/>
+                    <Reponse id="3" texte="Désert de Gobi" correct="false"/>
+                    <Reponse id="4" texte="Désert d'Arabie" correct="false"/>
+                </Reponses>
+            </Carte>
+
+            <Carte id="109" difficulte="Difficile" categorie="Nature">
+                <Question>Quel est le nom du plus grand volcan du monde </Question>
+                <Reponses>
+                    <Reponse id="1" texte="Mauna Loa" correct="true"/>
+                    <Reponse id="2" texte="Kilauea" correct="false"/>
+                    <Reponse id="3" texte=" Mont Fuji" correct="false"/>
+                    <Reponse id="4" texte="Vésuve" correct="false"/>
+                </Reponses>
+            </Carte>
+
+            <Carte id="110" difficulte="Difficile" categorie="Nature">
+                <Question>Quel est le nom de la plus grande cascade du monde ?</Question>
+                <Reponses>
+                    <Reponse id="1" texte="Chutes d'Iguazu" correct="true"/>
+                    <Reponse id="2" texte="Chutes Victoria" correct="false"/>
+                    <Reponse id="3" texte="hutes du Niagara" correct="false"/>
+                    <Reponse id="4" texte="Chutes d'Angel" correct="false"/>
+                </Reponses>
+            </Carte>
+
+            <Carte id="111" difficulte="Difficile" categorie="Nature">
+                <Question>Quel est le nom du plus grand lac du monde ?</Question>
+                <Reponses>
+                    <Reponse id="1" texte="Lac Baïkal" correct="true"/>
+                    <Reponse id="2" texte="Lac Supérieur" correct="false"/>
+                    <Reponse id="3" texte=" Lac Victoria" correct="false"/>
+                    <Reponse id="4" texte="Lac Huron" correct="false"/>
+                </Reponses>
+            </Carte>
+
+            <Carte id="112" difficulte="Difficile" categorie="Nature">
+                <Question>Quel est le nom de la plus grande île du monde ?</Question>
+                <Reponses>
+                    <Reponse id="1" texte="Groenland" correct="true"/>
+                    <Reponse id="2" texte="Nouvelle-Guinée" correct="false"/>
+                    <Reponse id="3" texte="Bornéo" correct="false"/>
+                    <Reponse id="4" texte="Madagascar" correct="false"/>
+                </Reponses>
+            </Carte>
+        </Cartes>
+    </Categorie>
+</Categories>

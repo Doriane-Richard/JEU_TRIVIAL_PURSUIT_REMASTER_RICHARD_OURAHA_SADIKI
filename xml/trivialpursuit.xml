@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TrivialPursuit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.univ-grenoble-alpes.fr/l3miage/trivialpursuit ../xsd/game.xsd" xmlns="http://www.univ-grenoble-alpes.fr/l3miage/trivialpursuit">
+  <Plateau>
+    <Cases>
+      <Case type="VIDE" couleur="BLEU">
+        <Sprite texture="a" positionX="7" positionY="10" size="20" sizeMin="4" couleur="BLEU" />
+      </Case>
+      <Case type="VIDE" couleur="BLEU">
+        <Sprite texture="case1_texture.png" positionX="13" positionY="10" size="20" sizeMin="4" couleur="BLEU" />
+      </Case>
+      <Case type="QUESTION" couleur="ROUGE">
+        <Sprite texture="case2_texture.png" positionX="10" positionY="15" size="25" sizeMin="4" couleur="BLEU" />
+      </Case>
+    </Cases>
+    <Background texture="plateau_texture.png" />
+  </Plateau>
+  <Categories>
+    <Categorie id="1" nom="Histoire" couleur="ROUGE">
+      <Cartes>
+        <Carte id="101" difficulte="Facile">
+          <Question>Le premier président de la France ?</Question>
+          <Reponses>
+            <Reponse id="1" texte="Louis-Napoléon Bonaparte" correct="true" />
+            <Reponse id="2" texte="Gaston Doumergue" correct="false" />
+          </Reponses>
+        </Carte>
+      </Cartes>
+    </Categorie>
+  </Categories>
+  <Joueurs>
+    <Joueur id="1" nom="Bob" score="4">
+      <Pion name="pion1" imageLink="pion1.png" description="pion bleu" case="1" />
+      <Jokers>
+        <Joker id="1" nom="50/50" effet="Supprimer deux mauvaises réponses" />
+      </Jokers>
+    </Joueur>
+  </Joueurs>
+</TrivialPursuit>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/doria/TrivialPursuit/Content/font/FontCase.spritefont</File>
+    <File>C:/Users/doria/TrivialPursuit/Content/font/FontMenu.spritefont</File>
+    <File>C:/Users/doria/TrivialPursuit/Content/Images/case_3.png</File>
+    <File>C:/Users/doria/TrivialPursuit/Content/Images/fond_plateau.png</File>
+    <File>C:/Users/doria/TrivialPursuit/Content/Images/pion-bleu.png</File>
+    <File>C:/Users/doria/TrivialPursuit/Content/Images/pion-jaune.png</File>
+    <File>C:/Users/doria/TrivialPursuit/Content/Images/pion-rouge.png</File>
+    <File>C:/Users/doria/TrivialPursuit/Content/Images/pion-vert.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>
